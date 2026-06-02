@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/raw/
+data/processed/
+.ipynb_checkpoints/
+.vscode/
+
+# Private personal notes
+DEV_NOTES.md
