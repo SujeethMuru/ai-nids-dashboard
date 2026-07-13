@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 st.title("AI-Powered Network Intrusion Detection Dashboard")
 
@@ -9,6 +10,10 @@ st.write(
     )
 
 st.header("Project Overview")
+
+traffic_data = pd.read_csv("data/raw/sample_network_traffic.csv")
+
+st.dataframe(traffic_data)
 
 st.markdown(
     """

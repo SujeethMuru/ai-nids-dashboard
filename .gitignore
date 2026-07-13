@@ -2,7 +2,10 @@
 __pycache__/
 *.pyc
 .env
-data/raw/
+
+data/raw/*
+!data/raw/sample_network_traffic.csv
+
 data/processed/
 .ipynb_checkpoints/
 .vscode/
